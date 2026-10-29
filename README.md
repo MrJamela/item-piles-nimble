@@ -10,3 +10,5 @@ Needs: the Nimble system and Item Piles (3.3 or newer).
 - Hidden from piles: class, subclass, ancestry, background, boons, features and spells.
 - Piles and merchants are Nimble characters (the only actors that carry coins), with a neutral token and no sight.
 - An object that changes hands arrives unequipped and out of any bag.
+- Stacking works as in D&D 5e: same-named objects stack (two Glaives make "Glaive ×2"), only with copies in the
+  same bag, and bags (like the Large Sack) never stack.
