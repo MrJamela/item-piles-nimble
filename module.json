@@ -1,0 +1,13 @@
+{
+  "id": "item-piles-nimble",
+  "title": "Item Piles: Nimble",
+  "description": "Adds Nimble system support to Item Piles: loot piles, merchants, trading and coins.",
+  "version": "0.1.0",
+  "authors": [{ "name": "MrJamela" }],
+  "compatibility": { "minimum": "14", "verified": "14.369" },
+  "esmodules": ["scripts/main.js"],
+  "relationships": {
+    "systems": [{ "id": "nimble", "type": "system" }],
+    "requires": [{ "id": "item-piles", "type": "module", "compatibility": { "minimum": "3.3" } }]
+  }
+}
